@@ -123,6 +123,7 @@ nav {
 
 .main-post {
     background-color: rgba(25, 28, 34, 0.9);
+    border-radius: 6px;
     padding: 30px;
 }
 
@@ -179,6 +180,7 @@ nav {
 
 .sidebar-box {
     background-color: rgba(25, 28, 34, 0.9);
+    border-radius: 6px;
     padding: 30px;
     text-align: center;
 }
@@ -211,6 +213,7 @@ nav {
 
 .ip-box {
     border: 1px solid #3d5a75;
+    border-radius: 6px;
     padding: 15px;
 }
 
