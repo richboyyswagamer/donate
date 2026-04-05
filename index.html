@@ -40,40 +40,12 @@
 
                     <div class="ip-box" onclick="copyIP()" id="ip-container">
                             
-                        <code id="server-ip">oceanei.org</code>
-                        <p id="copy-text">Click to copy ip</p>
+                        <code id="server-ip">Donate</code>
                     </div>
                 </div>
             </aside>
         </div>
     </div>
-
-    <script>
-        // Dont  touch could break!
-        function copyIP() {
-            const ipText = document.getElementById('server-ip').innerText;
-            const copySubtext = document.getElementById('copy-text');
-            
-            
-            navigator.clipboard.writeText(ipText).then(() => {
-                
-                copySubtext.innerText = "IP Copied!";
-                copySubtext.style.color = "#fff";
-                
-                
-                setTimeout(() => {
-                    copySubtext.innerText = "Click to Join!";
-                    copySubtext.style.color = "#888";
-                }, 2000);
-            }).catch(err => {
-                console.error('Failed to copy: ', err);
-            });
-        }
-    </script>
-
-</body>
-
-</html
 
 
 
