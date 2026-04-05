@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    background-image: url('Снимок экрана 2026-04-03 152818.png'); 
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+  color: inherit;
+}
+
+.footer {
+  position: fixed;
+  left: -100;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+
+.background-dim {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 18, 22, 0.8);
+    z-index: -1;
+}
+
+.container {
+    width: 1000px;
+    margin-top: 50px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #000;
+    color: #eee;
+}
+
+nav {
+    background-color: #3D3D3D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; 
+    height: 80px; 
+}
+
+.nav-links {
+    display: flex;
+    height: 100%; 
+}
+
+.nav-links a {
+    color: #bbb;
+    text-decoration: none;
+    padding: 0 30px; 
+    display: flex;
+    align-items: center; 
+    font-size: 16px;    
+    font-weight: bold;
+    height: 100%;     
+}
+
+.nav-links a:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.nav-links a.active {
+    background-color: #fff;
+    color: #000;
+    margin: 10px 0 10px 10px; 
+    height: calc(100% - 20px); 
+}
+
+.main-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.content-left {
+    flex: 2;
+}
+
+.image-box {
+    position: relative;
+    background-color: #222;
+}
+
+.image-box img {
+    width: 100%;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(137, 137, 137, 0.8);
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.main-post {
+    background-color: rgba(25, 28, 34, 0.9);
+    padding: 30px;
+}
+
+.main-post .date {
+    color: #7a9c5c;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main-post h2 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.main-post p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.news-post {
+    background-color: rgba(25, 28, 34, 0.9);
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.news-post-link {
+    background-color: rgba(25, 28, 34, 0.9);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.news-post .date {
+    color: #7a9c5c;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.news-post h2 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.news-post p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.sidebar-box {
+    background-color: rgba(25, 28, 34, 0.9);
+    padding: 30px;
+    text-align: center;
+}
+
+.server-title {
+    color: #3D3D3D;
+    font-size: 40px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 12px;
+    color: #aaa;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.player-count {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.player-count .count {
+    color: #7a9c5c;
+}
+
+.ip-box {
+    border: 1px solid #3d5a75;
+    padding: 15px;
+}
+
+.ip-box code {
+    display: block;
+    font-size: 18px;
+    color: #3d5a75;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ip-box p {
+    font-size: 11px;
+    color: #888;
+}
+
+.ip-box:hover {
+    background: rgba(83, 104, 120, 0.1);
+    cursor: pointer;
+}
+
+
+.about-container {
+    background-color: #191c22;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-container hr {
+    border: 0;
+    border-top: 1px solid #555;
+    width: 80%;
+    margin: 0 auto 40px auto;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; 
+    line-height: 1.8;
+    color: #ccc;
+    font-size: 15px;
+}
+
+.about-content p {
+    margin-bottom: 25px;
+}
+
+.highlight-green {
+    color: #7a9c5c;
+    font-weight: bold;
+}
+
+
+.commands-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.commands-table td {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+    color: #bbb;
+}
+
+.commands-table tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
